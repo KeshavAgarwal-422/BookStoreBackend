@@ -5,7 +5,7 @@ const bookRouter = require("./routes/book-routes");
 const userRouter = require("./routes/user-routes");
 const MONGOURI = process.env.MONGOURI;
 const cors = require("cors");
-const PORT = process.ev.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 
 const app = express();
 
